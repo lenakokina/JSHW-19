@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/sceleton.css" />
+    <link rel="stylesheet" href="./css/dark.css" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" async></script>
+</head>
+<body>
+    <table class="table">
+        <thead><h1 class="title">Contact list</h1>
+            <tr class="input">
+            <th style="text-align: center;">Name</th>
+            <th style="text-align: center;">Phone</th>
+            <th style="text-align: center;">email</th>
+            <th style="text-align: center;">actions</th>
+        </tr>
+        </thead>
+        <tbody id="contactsList">      
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><input id="nameInput" type="text" placeholder="Enter your name"></td>
+                <td><input id="phoneInput" type="text" placeholder="Enter your phone"></td>
+                <td><input id="emailInput" type="text" placeholder="Enter your email"></td>
+                <td><button id="addContactButton">Add</button></td> 
+            </tr>
+        </tfoot>
+    </table>
+    <script id="newContactTemplate" type="text/template">
+        <tr class="contact-item" data-contact-id="{{id}}">
+            <td class="data">{{name}}</td>
+            <td class="data">{{phone}}</td>
+            <td class="data">{{email}}</td>
+            <td><button class="delete-btn">Delete</button></td>
+        </tr>
+    </script>
+
+</body>
+</html>

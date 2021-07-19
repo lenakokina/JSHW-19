@@ -1,0 +1,114 @@
+
+
+.delete-btn { 
+    width: 100px;
+    font-size: 14px;
+    line-height: 1.22;
+    color: black;
+    text-align: center;    
+    border: 1px solid black;    
+    padding: 2px;
+    background-color: #c7e7e9;   
+}
+
+#addContactButton {
+    width: 100px;
+    font-size: 14px;
+    line-height: 1.22;
+    color: black;
+    text-align: center;    
+    border: 1px solid black;    
+    padding: 2px;
+    background-color: #c7e7e9;
+} 
+
+.data {
+    border: 1px  solid black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+ 
+.table {
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.input {
+    font-size: 18px;
+    font-weight: bold;    
+}
+
+
+
+
+
+/* 
+#myBtn {
+    
+    font-size: 18px;
+    line-height: 1.22;
+    color: black;
+    text-align: center;    
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 14px 24px;
+    background-color: #1ee9f7;
+    }
+
+#inputEnter {
+    font-size: 18px;
+    line-height: 1.22;
+    color: black;
+    text-align: center;   
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 14px 24px;
+    background-color: #1ee9f7;
+}
+
+.todo-list {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';    
+}
+
+.buttonDelete {
+    font-size: 12px;
+    line-height: 1.22;
+    color: black;
+    text-align: center;   
+    border: 1px solid black;    
+    padding: 3px;
+    background-color: #1ee9f7;
+    margin-left: 30px;
+    
+}
+
+     */
+
+
+     /* .todo-item {
+         padding: 3px;
+         margin: 2px;
+         border: 1px solid black;
+         cursor: pointer;
+         background-color: khaki;
+     }
+
+     .todo-item.done {
+         background-color: lawngreen;
+     }
+
+     .delete-btn {
+        float: right;
+
+         }
+  */
